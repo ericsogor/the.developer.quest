@@ -1,0 +1,32 @@
+
+.next-level {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd; /* Separator line */
+    text-align: center;
+}
+
+/* Style for the "Level 2: Advanced Mastery" heading */
+.next-level h3 {
+    font-size: 1.3em;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+/* Style for the "Coming Soon!" text (The most important part!) */
+.coming-soon {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #e67e22; /* A vibrant, eye-catching color (like a bright orange/amber) */
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid #e67e22; 
+    border-radius: 5px;
+    background-color: #fff9f5; 
+}
+
+/* Optional: Subtle effect on hover to indicate something is pending */
+.coming-soon:hover {
+    box-shadow: 0 0 8px rgba(230, 126, 34, 0.5);
+    transition: box-shadow 0.3s ease;
+}
