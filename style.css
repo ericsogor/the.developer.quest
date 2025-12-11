@@ -1,18 +1,18 @@
-/* --- style.css --- */
+/* --- style.css (Checked for Centering and Dark Colors) --- */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1a1a1a;
+    background-color: #1a1a1a; /* Dark Background */
     color: #f0f0f0;
     line-height: 1.6;
     margin: 0;
-    text-align: center;
+    text-align: center; /* Centers block elements if max-width is set */
 }
 
 .container {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 40px auto; /* CRITICAL: This centers the container block */
     padding: 20px;
-    text-align: left;
+    text-align: left; /* Resets text alignment inside container */
 }
 
 header {
@@ -39,7 +39,7 @@ header p {
     padding: 30px;
     margin-bottom: 40px;
     border-radius: 4px;
-    background-color: #242424;
+    background-color: #242424; /* Zone Card Background */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
